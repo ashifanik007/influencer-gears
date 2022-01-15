@@ -148,18 +148,25 @@ margin-top: 100px;
 /* Mobile devices */
 
 @media only screen and (max-width: 688px) {
+    .container {
+        margin: 0;
+    }
     .top-header {
         text-align: center;
     }
     .influencer{
         display: block;
+        text-align: center;
+        width: 100%;
     }
     .influencer-text {
         margin-left: 140px;
         margin-bottom: 50px;
+        text-align: center;
     }
     .Popular-items {
         grid-template-columns: repeat(1, 1fr);
+        text-align: center;
     }
     .see-more {
         justify-content: center;
@@ -172,6 +179,9 @@ margin-top: 100px;
 /* Tablet devices */
 
 @media only screen and (min-width:688px) and (max-width: 992px) {
+    .container {
+        margin: 0;
+    }
     .top-header {
         text-align: center;
     }
@@ -181,11 +191,14 @@ margin-top: 100px;
     .influencer-text {
         margin-left: 240px;
         margin-bottom: 50px; 
-        
+        text-align: center;
     }
     .Popular-items {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+    }
+    .item-img img {
+        padding: 0 25px;
     }
     .see-more {
         justify-content: center;
