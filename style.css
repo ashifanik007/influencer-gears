@@ -197,6 +197,9 @@ margin-top: 100px;
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
     }
+    .item-text {
+        text-align: center;
+    }
     .item-img img {
         padding: 0 25px;
     }
